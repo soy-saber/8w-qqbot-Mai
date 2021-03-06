@@ -11,7 +11,7 @@
 * anime 搜索番剧的url
 * pa 让@的人爪巴
 
-## 移步此处https://github.com/Mrs4s/go-cqhttp
-* 安装并运行exe
+## 如何开始
+* 移步此处https://github.com/Mrs4s/go-cqhttp 安装并运行exe
 * 补充完整python代码并运行
-**开始愉快的bot之旅吧**
+* **开始愉快的bot之旅吧**
