@@ -1,5 +1,5 @@
 # 8w-qqbot-Mai
-## 这是一个基于cqhttp框架搭建的使用python语音的qq机器人，现实现功能如下：
+## 这是一个基于cqhttp框架搭建的使用python开发的qq机器人，现实现功能如下：
 * help 菜单
 * rand 输出随机数
 * beauty 从指定api读取图片并发送
