@@ -11,6 +11,7 @@ from plugins.trans import trans
 from plugins.ban import ban
 from plugins.abs import abs
 from plugins.unban import unban
+from plugins.hello import hello
 import pymysql
 from itertools import chain
 import sys
@@ -105,6 +106,16 @@ def group_msg_handle(msg):
             #菜单
             elif(message == '#help'):
                 text = help()
+                msg_dict = {
+                    "msg_type": "group",
+                    "number": get_number(msg),
+                    "msg": text
+                }
+                send_msg(msg_dict)
+                return
+
+            elif (message == '#hello'):
+                text = hello()
                 msg_dict = {
                     "msg_type": "group",
                     "number": get_number(msg),
