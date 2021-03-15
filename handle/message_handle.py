@@ -168,6 +168,16 @@ def group_msg_handle(msg):
                 send_msg(msg_dict)
                 return
 
+            elif ('find' in message):
+                text = find(get_message(msg), get_number(msg))
+                msg_dict = {
+                    "msg_type": "group",
+                    "number": get_number(msg),
+                    "msg": text
+                }
+                send_msg(msg_dict)
+                return
+            
             #随机数
             elif('#rand' in message):
                 text = rand(message,id)
